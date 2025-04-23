@@ -8,12 +8,12 @@ const projects = [
   {
     title: 'Audi RS6 Avant',
     description: 'Full PPF, ceramic coating, lowered on KW V3s',
-    image: '/projects/rs6.jpg',
+    image: '/projects/8NHaORhZ.jpeg',
   },
   {
-    title: 'Nissan GT-R R35',
+    title: 'Lamborghini Aventador SVJ',
     description: 'Stage 2 build with track alignment and custom aero',
-    image: '/projects/gtr.jpg',
+    image: '/projects/DSC01211.jpg',
   },
   {
     title: 'Porsche Cayman GT4',
@@ -31,9 +31,9 @@ const projects = [
     image: '/projects/supra.jpg',
   },
   {
-    title: 'BMW E92 M3',
+    title: 'Land Rover Defender',
     description: 'Track prep, tune, cage, and interior strip-down',
-    image: '/projects/e92.jpg',
+    image: '/projects/defender-0031.jpg',
   },
 ]
 
@@ -60,7 +60,7 @@ export default function ProjectsPage() {
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
               />
-              <div className="absolute inset-0 bg-gray-200 bg-opacity-40 opacity-0 group-hover:opacity-90 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-gray-200 bg-opacity-40 opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 p-6 z-10">
                 <h3 className="text-2xl font-semibold">{car.title}</h3>
                 <p className="text-sm text-gray-600">{car.description}</p>

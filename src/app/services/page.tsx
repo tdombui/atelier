@@ -7,39 +7,39 @@ import Image from 'next/image'
 const services = [
   {
     title: 'Paint Protection Film',
-    image: '/services/ppf.jpg',
+    image: '/services/QtZGU0lQ.jpeg',
   },
   {
     title: 'Ceramic Coating',
-    image: '/services/ceramic.jpg',
+    image: '/services/defender-0019.jpg',
   },
   {
     title: 'Window Tinting',
-    image: '/services/tint.jpg',
+    image: '/services/rs6-0019.jpg',
   },
   {
     title: 'Detailing',
-    image: '/services/detailing.jpg',
+    image: '/services/DSC01171.jpg',
   },
   {
     title: 'Exotic Car Sales',
-    image: '/services/sales.jpg',
+    image: '/services/EmnfEx5A.jpeg',
   },
   {
     title: 'Vehicle Consignment',
-    image: '/services/consign.jpg',
+    image: '/services/nsx-0025.jpg',
   },
   {
     title: 'Track Prep',
-    image: '/services/track.jpg',
+    image: '/services/991-GT3-008.jpg',
   },
   {
     title: 'Performance Upgrades',
-    image: '/services/performance.jpg',
+    image: '/services/DSC01169.jpg',
   },
   {
     title: 'Maintenance',
-    image: '/services/performance.jpg',
+    image: '/services/nsx-007.jpg',
   },
 ]
 
@@ -65,7 +65,7 @@ export default function ServicesPage() {
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-50 transition-opacity" />
+              <div className="absolute inset-0  bg-opacity-30 group-hover:bg-opacity-50 transition-opacity" />
               <div className="absolute bottom-0 left-0 p-4 z-10">
                 <h3 className="text-white text-lg font-semibold">{service.title}</h3>
               </div>

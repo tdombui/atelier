@@ -112,6 +112,7 @@ export default function Home() {
 <section id="projects" className="w-full bg-neutral-100 py-24 px-6">
   <div className="w-full  px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-24">
     <h2 className="text-3xl text-black font-bold mb-8 text-center">Featured Cars</h2>
+    
     <div className="flex overflow-x-auto space-x-6 snap-x snap-mandatory pb-4 scroll-smooth">
       {[
         {
