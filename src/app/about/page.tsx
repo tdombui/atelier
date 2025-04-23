@@ -12,7 +12,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h1 className="text-5xl font-bold tracking-tight">About Atelier</h1>
           <p className="text-gray-600 mt-4">
-            Atelier Motors is more than just a shop — it's a space built by enthusiasts, for enthusiasts.
+            Atelier Motors is more than just a shop — it&#39;s a space built by enthusiasts, for enthusiasts.
           </p>
         </div>
 
@@ -21,11 +21,11 @@ export default function AboutPage() {
             <h2 className="text-2xl font-semibold mb-4">Our Philosophy</h2>
             <p className="text-gray-700 leading-relaxed">
               We believe in clean work, high craftsmanship, and doing right by every build that rolls through our doors.
-              Whether it’s a full PPF wrap, a track-prepped suspension install, or a deep-dive detail — we treat every project
-              with the same care and intention we’d give our own cars.
+              Whether it&#39;s a full PPF wrap, a track-prepped suspension install, or a deep-dive detail—we treat every project
+              with the same care and intention we&#39;d give our own cars.
             </p>
             <p className="text-gray-700 mt-4 leading-relaxed">
-              Founded by drivers, built by builders. Every bolt, every panel, every mod — with purpose.
+              Founded by drivers, built by builders. Every bolt, every panel, every mod—with purpose.
             </p>
           </div>
 
