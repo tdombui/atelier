@@ -31,7 +31,7 @@ export default function Home() {
             </p> */}
             <a
   href="#services"
-  className="absolute bottom-4 left-1/2 transform -translate-x-1/2 animate-bounce z-50"
+  className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce z-50"
 >
   <svg
     xmlns="http://www.w3.org/2000/svg"
