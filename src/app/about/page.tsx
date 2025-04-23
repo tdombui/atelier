@@ -11,7 +11,7 @@ export default function AboutPage() {
 
       <main className="pt-32 px-6 pb-24">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h1 className="text-5xl font-bold tracking-tight">About Us</h1>
+          <h1 className="text-6xl font-bold tracking-tight">About Us</h1>
           <p className="text-gray-600 mt-4">
             Atelier Motors is more than just a shop—it&#39;s a space built by enthusiasts, for enthusiasts.
           </p>

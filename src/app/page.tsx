@@ -100,7 +100,7 @@ export default function Home() {
   </div>
   <div className="mt-8 text-center">
   <a
-    href="/projects"
+    href="/services"
     className="inline-block text-blue-600 hover:underline text-sm font-medium"
   >
     View Our Services →
