@@ -16,19 +16,19 @@ const projects = [
     image: '/projects/DSC01211.jpg',
   },
   {
-    title: 'Porsche Cayman GT4',
+    title: 'Honda NSX',
     description: 'PPF, alignment, and roll bar install for track days',
-    image: '/projects/gt4.jpg',
+    image: '/projects/zoE6MwUl.jpeg',
   },
   {
-    title: 'Ferrari F430',
+    title: 'Lamborghini Huracan STO',
     description: 'Concours-level detail and paint restoration',
-    image: '/projects/f430.jpg',
+    image: '/projects/sto-009.jpg',
   },
   {
-    title: 'Toyota Supra A90',
+    title: 'Porsche GT2RS',
     description: 'Full bolt-ons, titanium exhaust, forged wheels',
-    image: '/projects/supra.jpg',
+    image: '/projects/gt2rs-0039.jpg',
   },
   {
     title: 'Land Rover Defender',
