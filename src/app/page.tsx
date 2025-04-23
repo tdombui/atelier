@@ -66,8 +66,8 @@ export default function Home() {
         image: '/services/tuning.jpg',
       },
       {
-        title: 'Track Prep',
-        description: 'Roll cages, harnesses, and inspections.',
+        title: 'Car Maintenance',
+        description: 'Routine checks, service, and general inspections to keep your car running smoothly and reliably.', 
         image: '/services/track-prep.jpg',
       }
     ].map((service, i) => (
