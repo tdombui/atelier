@@ -102,7 +102,7 @@ export default function Navbar() {
             transition={{ duration: 0.2, ease: 'easeOut' }}
             className="md:hidden absolute top-full left-0 w-full bg-black text-white flex flex-col items-center gap-6 py-6 z-40"
           >
-            <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+            <a href="/about" onClick={() => setMenuOpen(false)}>About</a>
             <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
             <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
             <a href="#shop" onClick={() => setMenuOpen(false)}>Shop</a>
