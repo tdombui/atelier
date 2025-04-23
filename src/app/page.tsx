@@ -120,7 +120,12 @@ export default function Home() {
       {[
         {
           image: '/projects/DSC01211.jpg',
-          title: 'Nissan Skyline R32',
+          title: 'Lamborghini Aventador SVJ',
+          subtitle: 'Tint, PPF, ceramic coating, and jeweled black paint.',
+        },
+        {
+          image: '/projects/sto-001.jpg',
+          title: 'Lamborghini Huracan STO',
           subtitle: 'Tint, PPF, ceramic coating, and jeweled black paint.',
         },
         {
@@ -130,23 +135,23 @@ export default function Home() {
         },
         {
           image: '/projects/PzsPS3cQ.jpeg',
-          title: 'Toyota MR2 Spyder',
+          title: 'Porsche GT2RS',
           subtitle: 'Front splitter. Rear spoiler. Track-ready.',
         },
         {
           image: '/projects/991-GT3-0037.jpg',
-          title: 'NA Miata',
+          title: 'Porsche 991 GT3',
           subtitle: 'Widebody. BBS. Rear spoiler.', 
         },
         {
           image: '/projects/zoE6MwUl.jpeg',
-          title: 'NA Miata',
+          title: 'Honda NSX',
           subtitle: 'Imported. Consigned. Stance sitting on airbags',
         }
         ,
         {
           image: '/projects/CYdvbFB8.jpeg',
-          title: 'NA Miata',
+          title: 'Lamborghini Aventador SV',
           subtitle: 'Widebody, ITBs, and stripped interior.',
         }
       ].map((car, i) => (
@@ -163,7 +168,7 @@ export default function Home() {
             />
           </div>
           <div className="p-4">
-            <h3 className="text-xl font-semibold">{car.title}</h3>
+            <h3 className="text-xl text-black font-semibold">{car.title}</h3>
             <p className="text-gray-600 text-sm">{car.subtitle}</p>
             <a
               href="/projects"
