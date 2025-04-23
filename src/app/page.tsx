@@ -29,7 +29,10 @@ export default function Home() {
             <p className="mt-4 text-xl max-w-xl">
               We build, tune, and drive excellence.
             </p> */}
-            <a href="#services" className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce z-20">
+            <a
+  href="#services"
+  className="fixed bottom-4 left-1/2 transform -translate-x-1/2 animate-bounce z-50"
+>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-8 w-8 text-white"
