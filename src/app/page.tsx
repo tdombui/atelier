@@ -319,7 +319,7 @@ export default function Home() {
                         alt="Brand Logo"
                         width={144}
                         height={40}
-                        className="object-contain cursor-pointer mb-4"
+                        className="object-contain mb-4"
                       />
           <p className="text-gray-400">
             SoCal-based shop specializing in PPF, detailing, and exotic car sales.
