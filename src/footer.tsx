@@ -1,6 +1,6 @@
 'use client'
 
-import { Instagram, Youtube, Mail } from 'lucide-react'
+import { Instagram, Youtube, Mail, Phone } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Footer() {
@@ -39,7 +39,7 @@ export default function Footer() {
             className="flex items-center gap-2 hover:underline"
           >
             <Instagram size={18} />
-            Instagram
+            @ateliermotorsoc
           </a>
           <a
             href="https://youtube.com"
@@ -56,6 +56,13 @@ export default function Footer() {
           >
             <Mail size={18} />
             info@ateliergarage.com
+          </a>
+          <a
+            href="mailto:info@ateliergarage.com"
+            className="flex items-center gap-2 hover:underline"
+          >
+            <Phone size={18} />
+            +1 (949) 000-0000
           </a>
         </div>
       </div>
