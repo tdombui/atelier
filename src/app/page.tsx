@@ -3,7 +3,7 @@ import Navbar from "@/navbar"
 import {
   Instagram,
   Youtube,
-  Mail, Phone
+  Mail, Phone, ChevronDown
 } from 'lucide-react'
 
 export default function Home() {
@@ -31,17 +31,9 @@ export default function Home() {
             </p> */}
             <a
   href="#services"
-  className="absolute bottom-24 left-1/2 transform -translate-x-1/2 animate-bounce z-50"
+  className="absolute bottom-16 sm:bottom-24 left-1/2 transform -translate-x-1/2 animate-bounce z-50"
 >
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-white"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-  </svg>
+<ChevronDown size={36} />
 </a>
           </div>
         </section>
@@ -341,7 +333,6 @@ export default function Home() {
           <a href="/projects" className="hover:underline">Projects</a>
           <a href="/shop" className="hover:underline">Shop</a>
           <a href="/about" className="hover:underline">About</a> 
-
         </div>
 
         {/* Socials with Icons */}
