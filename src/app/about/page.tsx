@@ -32,7 +32,7 @@ export default function AboutPage() {
 
           <div className="relative w-full h-96 rounded-lg overflow-hidden shadow">
             <Image
-              src="/about/garage-shot.jpg"
+              src="/about.jpg"
               alt="Inside Atelier Garage"
               fill
               className="object-cover"
