@@ -1,6 +1,7 @@
 'use client'
 
 import Navbarsite from '@/navbarsite'
+import Footer from '@/footer'
 import Image from 'next/image'
 
 const services = [
@@ -72,6 +73,8 @@ export default function ServicesPage() {
           ))}
         </div>
       </main>
+      <Footer />
+
     </div>
   )
 }

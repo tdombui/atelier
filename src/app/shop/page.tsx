@@ -1,4 +1,5 @@
 import Navbarsite from '@/navbarsite'
+import Footer from '@/footer'
 import Image from 'next/image'
 
 const products = [
@@ -87,6 +88,7 @@ export default function ShopPage() {
           ))}
         </div>
       </main>
+      <Footer />
     </div>
   )
 }

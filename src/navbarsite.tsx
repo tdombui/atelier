@@ -27,10 +27,10 @@ export default function Navbarsite() {
 
         {/* Left nav links – DESKTOP ONLY */}
         <div className="hidden md:flex gap-8 flex-1">
-          <a href="/about" className="text-white hover:underline">About</a>
           <a href="/services" className="text-white hover:underline">Services</a>
           <a href="/projects" className="text-white hover:underline">Projects</a>
           <a href="/shop" className="text-white hover:underline">Shop</a>
+          <a href="/about" className="text-white hover:underline">About</a>
         </div>
 
         {/* Center logo – always centered */}
