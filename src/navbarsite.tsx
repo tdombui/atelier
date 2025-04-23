@@ -66,7 +66,7 @@ export default function Navbarsite() {
             <div className="hidden md:block">
               <a
                 href="/about#contact"
-                className="inline-block bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 hover:text-white transform transition-transform duration-200 ease-in-out hover:scale-105 hover:shadow-[0_2px_14px_rgba(255,255,255,0.7)]"
+                className="inline-block bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-500 hover:text-white transform transition-transform duration-200 ease-in-out hover:scale-105 hover:shadow-[0_2px_14px_rgba(255,255,255,0.7)]"
               >
                 Contact Us
               </a>
