@@ -338,7 +338,7 @@ export default function Home() {
         {/* Quick Links */}
         <div className="flex flex-col gap-2">
           <a href="/services" className="hover:underline">Services</a>
-          <a href="/featured" className="hover:underline">Projects</a>
+          <a href="/projects" className="hover:underline">Projects</a>
           <a href="/shop" className="hover:underline">Shop</a>
           <a href="/about" className="hover:underline">About</a> 
 
