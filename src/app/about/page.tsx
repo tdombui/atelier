@@ -17,7 +17,7 @@ export default function AboutPage() {
           </p>
         </div>
 
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
           <div>
             <h2 className="text-2xl font-semibold mb-4">Our Philosophy</h2>
             <p className="text-gray-700 leading-relaxed">
@@ -39,10 +39,11 @@ export default function AboutPage() {
             />
           </div>
         </div>
+        <section id="contact"></section>
         {/* Contact / Location Section */}
-<section className="mt-24 max-w-5xl mx-auto px-4 text-center">
+<section id="contact" className="mt-24 max-w-5xl mx-auto px-4 text-center">
             {/* Contact Form */}
-            <section id="contact" className="max-w-3xl mx-auto text-center mb-24">
+            <section className="max-w-3xl mx-auto text-center mb-24">
           <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
           <p className="text-gray-600 mb-8">
             Book a service, request a quote, or just say hey.

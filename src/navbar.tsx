@@ -22,6 +22,10 @@ export default function Navbar() {
   className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
     isHomePage && !scrolled ? 'bg-transparent' : 'bg-black shadow-md backdrop-blur'
   }`}
+><motion.div
+  initial={{ y: -40, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ type: 'spring', stiffness: 70, damping: 14 }}
 >
       <nav className="relative flex items-center justify-between px-6 py-6 md:py-8 max-w-screen-xl mx-auto">
 
@@ -30,7 +34,7 @@ export default function Navbar() {
           <a href="#services" className="text-white hover:underline">Services</a>
           <a href="#projects" className="text-white hover:underline">Projects</a>
           <a href="#shop" className="text-white hover:underline">Shop</a>
-          <a href="#about" className="text-white hover:underline">About</a>
+          <a href="/about" className="text-white hover:underline">About</a>
 
         </div>
 
@@ -38,14 +42,14 @@ export default function Navbar() {
         <div className="absolute left-1/2 transform -translate-x-1/2">
   {isHomePage ? (
     <a href="#hero" aria-label="Scroll to top">
-      <Image
-        src="/atelier-type-logo-white.png"
-        alt="Brand Logo"
-        width={144}
-        height={40}
-        className="object-contain cursor-pointer"
-      />
-    </a>
+  <Image
+    src="/atelier-type-logo-white.png"
+    alt="Brand Logo"
+    width={144}
+    height={40}
+    className="object-contain cursor-pointer transform transition-transform duration-200 hover:scale-105"
+  />
+</a>
   ) : (
     <Link href="/" aria-label="Go to homepage">
       <Image
@@ -53,7 +57,7 @@ export default function Navbar() {
         alt="Brand Logo"
         width={144}
         height={40}
-        className="object-contain cursor-pointer"
+        className="object-contain cursor-pointer "
       />
     </Link>
   )}
@@ -63,12 +67,15 @@ export default function Navbar() {
         <div className="flex items-center justify-end flex-1">
           {/* DESKTOP CTA */}
           <div className="hidden md:block">
-            <a
-              href="#contact"
-              className="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200 transition"
-            >
-              Contact Us
-            </a>
+          <a
+  href="#contact"
+  className="inline-block bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700 hover:text-white transform transition-transform duration-200 ease-in-out hover:scale-105 hover:shadow-[0_2px_14px_rgba(255,255,255,0.7)]" 
+>
+  Contact Us
+</a>
+
+            
+            
           </div>
 
           {/* MOBILE Hamburger */}
@@ -109,6 +116,7 @@ export default function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
+      </motion.div>
     </header>
   )
 }
