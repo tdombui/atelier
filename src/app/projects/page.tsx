@@ -11,29 +11,53 @@ const projects = [
     image: '/projects/8NHaORhZ.jpeg',
   },
   {
-    title: 'Lamborghini Aventador SVJ',
-    description: 'Stage 2 build with track alignment and custom aero',
-    image: '/projects/DSC01211.jpg',
-  },
-  {
-    title: 'Honda NSX',
-    description: 'PPF, alignment, and roll bar install for track days',
-    image: '/projects/zoE6MwUl.jpeg',
-  },
-  {
-    title: 'Lamborghini Huracan STO',
-    description: 'Concours-level detail and paint restoration',
-    image: '/projects/sto-009.jpg',
+    title: 'Porsche 991 GT3',
+    description: 'Full bolt-ons, titanium exhaust, forged wheels',
+    image: '/projects/991-GT3-0037.jpg',
   },
   {
     title: 'Porsche GT2RS',
     description: 'Full bolt-ons, titanium exhaust, forged wheels',
     image: '/projects/gt2rs-0039.jpg',
   },
+
+  {
+    title: 'Honda NSX',
+    description: 'PPF, alignment, and roll bar install for track days',
+    image: '/projects/zoE6MwUl.jpeg',
+  },
+  {
+    title: 'Lamborghini Aventador SVJ',
+    description: 'Stage 2 build with track alignment and custom aero',
+    image: '/projects/DSC01211.jpg',
+  },
+
+  {
+    title: 'Lamborghini Huracan STO',
+    description: 'Concours-level detail and paint restoration',
+    image: '/projects/sto-009.jpg',
+  },
+
+  {
+    title: 'Rolls Royce Ghost',
+    description: 'Full bolt-ons, titanium exhaust, forged wheels',
+    image: '/projects/ghost-33.jpg',
+  },
+
+  {
+    title: 'Porsche 992 Carrera T',
+    description: 'Track prep, tune, cage, and interior strip-down',
+    image: '/projects/porsche-992-carrera-t-2.jpg',
+  },
   {
     title: 'Land Rover Defender',
     description: 'Track prep, tune, cage, and interior strip-down',
     image: '/projects/defender-0031.jpg',
+  },
+  {
+    title: 'Porsche Cayenne',
+    description: 'Track prep, tune, cage, and interior strip-down',
+    image: '/projects/cayenne-0017.jpg',
   },
 ]
 
