@@ -116,33 +116,33 @@ export default function Home() {
     <div className="flex overflow-x-auto space-x-6 snap-x snap-mandatory pb-4 scroll-smooth">
       {[
         {
-          image: '/cars/r32.jpg',
+          image: '/projects/DSC01211.jpg',
           title: 'Nissan Skyline R32',
-          subtitle: '500hp street-to-track setup with custom aero.',
+          subtitle: 'Tint, PPF, ceramic coating, and jeweled black paint.',
         },
         {
-          image: '/cars/e46.jpg',
-          title: 'BMW E46 M3',
-          subtitle: 'Slicks, cage, and full suspension setup.',
+          image: '/projects/8NHaORhZ.jpeg',
+          title: 'Audi RS6 Avant',
+          subtitle: 'Tint, PPF, ceramic coating, with a stance sitting on airbags.',
         },
         {
-          image: '/cars/mr2.jpg',
+          image: '/projects/PzsPS3cQ.jpeg',
           title: 'Toyota MR2 Spyder',
-          subtitle: 'K24-swapped, built for time attack.',
+          subtitle: 'Front splitter. Rear spoiler. Track-ready.',
         },
         {
-          image: '/cars/miata.jpg',
+          image: '/projects/991-GT3-0037.jpg',
           title: 'NA Miata',
-          subtitle: 'Widebody, ITBs, and stripped interior.',
+          subtitle: 'Widebody. BBS. Rear spoiler.', 
         },
         {
-          image: '/cars/miata.jpg',
+          image: '/projects/zoE6MwUl.jpeg',
           title: 'NA Miata',
-          subtitle: 'Widebody, ITBs, and stripped interior.',
+          subtitle: 'Imported. Consigned. Stance sitting on airbags',
         }
         ,
         {
-          image: '/cars/miata.jpg',
+          image: '/projects/CYdvbFB8.jpeg',
           title: 'NA Miata',
           subtitle: 'Widebody, ITBs, and stripped interior.',
         }
