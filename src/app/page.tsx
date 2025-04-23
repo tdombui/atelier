@@ -46,7 +46,7 @@ export default function Home() {
 {/* SERVICES SECTION*/}
 <section
   id="services"
-  className="min-h-screen w-full bg-white text-black py-24 px-4 lg:px-12 xl:px-16 2xl:px-32"
+  className="scroll-mt-20 min-h-screen w-full bg-white text-black py-24 px-4 lg:px-12 xl:px-16 2xl:px-32"
 >
   <div className="text-center mb-16">
     <h2 className="text-3xl font-bold">Our Services</h2>
