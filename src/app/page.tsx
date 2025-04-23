@@ -3,7 +3,7 @@ import Navbar from "@/navbar"
 import {
   Instagram,
   Youtube,
-  Mail
+  Mail, Phone
 } from 'lucide-react'
 
 export default function Home() {
@@ -361,6 +361,12 @@ export default function Home() {
           >
             <Mail size={18} />
             info@ateliergarage.com
+          </a>
+          <a
+            className="flex items-center gap-2 hover:underline"
+          >
+            <Phone size={18} />
+            +1 (949) 000-0000
           </a>
         </div>
       </div>

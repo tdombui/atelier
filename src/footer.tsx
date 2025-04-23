@@ -58,7 +58,6 @@ export default function Footer() {
             info@ateliergarage.com
           </a>
           <a
-            href="mailto:info@ateliergarage.com"
             className="flex items-center gap-2 hover:underline"
           >
             <Phone size={18} />
