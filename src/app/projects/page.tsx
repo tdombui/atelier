@@ -5,10 +5,11 @@ import Footer from '@/footer'
 import Image from 'next/image'
 
 const projects = [
+
   {
-    title: 'Audi RS6 Avant',
+    title: 'Porsche 997 GT3',
     description: 'Full PPF, ceramic coating, lowered on KW V3s',
-    image: '/projects/8NHaORhZ.jpeg',
+    image: '/projects/997-gt3-0014.jpg',
   },
   {
     title: 'Porsche 991 GT3',
@@ -20,7 +21,16 @@ const projects = [
     description: 'Full bolt-ons, titanium exhaust, forged wheels',
     image: '/projects/gt2rs-0039.jpg',
   },
-
+  {
+    title: 'Porsche 992 Carrera T',
+    description: 'Track prep, tune, cage, and interior strip-down',
+    image: '/projects/porsche-992-carrera-t-2.jpg',
+  },
+  {
+    title: 'Audi RS6 Avant',
+    description: 'Full PPF, ceramic coating, lowered on KW V3s',
+    image: '/projects/8NHaORhZ.jpeg',
+  },
   {
     title: 'Honda NSX',
     description: 'PPF, alignment, and roll bar install for track days',
@@ -35,19 +45,18 @@ const projects = [
   {
     title: 'Lamborghini Huracan STO',
     description: 'Concours-level detail and paint restoration',
-    image: '/projects/sto-009.jpg',
+    image: '/projects/sto-0015.jpg',
+  },
+  {
+    title: 'Lamborghini Aventador SV',
+    description: 'Concours-level detail and paint restoration',
+    image: '/projects/DSC01382.jpg',
   },
 
   {
     title: 'Rolls Royce Ghost',
     description: 'Full bolt-ons, titanium exhaust, forged wheels',
     image: '/projects/ghost-33.jpg',
-  },
-
-  {
-    title: 'Porsche 992 Carrera T',
-    description: 'Track prep, tune, cage, and interior strip-down',
-    image: '/projects/porsche-992-carrera-t-2.jpg',
   },
   {
     title: 'Land Rover Defender',
