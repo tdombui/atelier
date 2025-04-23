@@ -58,17 +58,17 @@ export default function Home() {
       {
         title: 'Customize',
         description: 'Paint correction, PPF, Tint, and more.',
-        image: '/services/exhaust.jpg',
+        image: '/services/QtZGU0lQ.jpeg',
       },
       {
         title: 'Dealership',
         description: 'Buy, sell, or consign your vehicle with us.',
-        image: '/services/tuning.jpg',
+        image: '/services/EmnfEx5A.jpeg',
       },
       {
         title: 'Car Maintenance',
         description: 'Routine checks, service, and general inspections to keep your car running smoothly and reliably.', 
-        image: '/services/track-prep.jpg',
+        image: '/services/DSC01161.jpg',
       }
     ].map((service, i) => (
       <div
