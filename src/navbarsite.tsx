@@ -101,7 +101,7 @@ export default function Navbarsite() {
               <a href="/projects" onClick={() => setMenuOpen(false)}>Projects</a>
               <a href="/shop" onClick={() => setMenuOpen(false)}>Shop</a>
               <a
-                href="#contact"
+                href="/about#contact"
                 className="bg-white text-black px-4 py-2 rounded-full hover:bg-gray-200 transition"
                 onClick={() => setMenuOpen(false)}
               >
